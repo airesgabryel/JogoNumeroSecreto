@@ -4,6 +4,10 @@ console.log(numeroSecreto)
 let chute;
 let tentativas = 1;
 
+
+
+
+
 // enquanto chute não for igual ao n.s.
 while (chute != numeroSecreto) {
     chute = prompt('Escolha um número entre 1 e 10');
