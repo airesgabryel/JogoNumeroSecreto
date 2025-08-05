@@ -11,12 +11,6 @@ console.log(numeroSecreto)
 let chute;
 let tentativas = 1;
 
-
-
-
-
-
-
 // enquanto chute não for igual ao n.s.
 while (chute != numeroSecreto) {
     chute = prompt(`Escolha um número entre 1 e ${numeroMaximo} `);
@@ -25,9 +19,9 @@ while (chute != numeroSecreto) {
        break;
     } else {
         if (chute > numeroSecreto) {
-            alert(`O número secreto é menor que: ${chute}`)
+            alert(`O número secreto é menor que ${chute}`)
         } else {
-            alert(`O número secreto é maior que: ${chute}`)
+            alert(`O número secreto é maior que ${chute}`)
         }
         // tentativas = tentativas + 1
         tentativas++;
